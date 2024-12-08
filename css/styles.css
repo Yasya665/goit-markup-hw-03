@@ -87,7 +87,9 @@ img {
 }
 
 .nav-list-item {
+    padding: 24px 0;
 }
+
 
 .nav-link {
     color: #2E2F42;
@@ -132,10 +134,10 @@ img {
 
 .hero {
     background-color: rgb(46, 47, 66);
+    padding: 188px 0;
 }
 
 .hero-container {
-    padding: 188px 0;
     max-height: 600px;
 }
 
@@ -203,7 +205,7 @@ img {
 }
 
 .features-list-item {
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-caption {
@@ -299,12 +301,13 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 48px;
     justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
-    width: calc((100% - 3 * 24px) / 4)
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card {
@@ -331,10 +334,10 @@ img {
 
 .footer {
     background: rgb(46, 47, 66);
+    padding: 100px 0;
 }
 
 .footer-container {
-    padding: 100px 0 100px 156px;
     width: 264px;
 }
 
@@ -347,6 +350,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .fooier-logo-span {

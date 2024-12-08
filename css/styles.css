@@ -4,20 +4,42 @@ body {
     background-color: #FFFFFF;
 }
 
-a {
-    text-decoration: none;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 
 .header {
+
+}
+
+.header-container {
 
 }
 
@@ -34,10 +56,13 @@ button {
 .logo-span {
     color: #2E2F42;
 }
+
 .nav-list {
 }
+
 .nav-list-item {
 }
+
 .nav-link {
     color: #2E2F42;
     font-size: 16px;
@@ -55,10 +80,13 @@ button {
 .contacts {
     font-style: normal
 }
+
 .contacts-list {
 }
+
 .contacts-list-item {
 }
+
 .contacts-link {
     color: #434455;
     font-size: 16px;
@@ -75,6 +103,11 @@ button {
 
 .hero {
     background-color: rgb(46, 47, 66);
+
+}
+
+.hero-container {
+    padding: 188px 472px;
 }
 
 .title {
@@ -85,6 +118,9 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    min-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -95,6 +131,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: rgb(77, 90, 229);
+    padding: 16px 32px;
+    min-width: 169px;
+    min-height: 56px;
+    border-radius: 4px;
+    border: 1px solid transparent;
 }
 
 .button:hover,
@@ -103,23 +144,34 @@ button {
 }
 
 .features {
-    background: rgb(244, 244, 253);
+    background: rgb(255, 255, 255);
 }
 
+.features-container {
+    padding: 120px 0px;
+}
 
 .subtitle-hidden {
     
 }
+
 .features-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
+
 .features-list-item {
+    width: 264px;
 }
+
 .features-caption {
     color: rgb(46, 47, 66);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .features-item {
@@ -133,6 +185,10 @@ button {
     background: rgb(244, 244, 253);
 }
 
+.team-container {
+
+}
+
 .team-subtitle {
     color: rgb(46, 47, 66);
     font-size: 36px;
@@ -141,11 +197,21 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
+
 .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
+
 .team-list-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0 0 32px 0;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-caption {
@@ -154,17 +220,27 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
 }
+
 .team-item {
     color: rgb(67, 68, 85);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .our-portfolio {
     background: rgb(255, 255, 255);
 }
+
+.portfolio-container {
+
+}
+
 .portfolio-subtitle {
     color: rgb(46, 47, 66);
     font-size: 36px;
@@ -173,19 +249,28 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .portfolio-list-item {
 }
+
 .portfolio-caption {
     color: rgb(46, 47, 66);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-left: 16px;
 }
+
 .portfolio-item {
     color: rgb(67, 68, 85);
     font-size: 16px;
@@ -197,6 +282,10 @@ button {
     background: rgb(46, 47, 66);
 }
 
+.footer-container {
+
+}
+
 .footer-logo {
     color: rgb(77, 90, 229);
     font-family: Raleway, sans-serif;
@@ -206,9 +295,11 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .fooier-logo-span {
     color: rgb(244, 244, 253);
 }
+
 .footer-text {
     color: rgb(244, 244, 253);
     font-size: 16px;

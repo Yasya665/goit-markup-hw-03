@@ -38,6 +38,8 @@ img {
 
 .container {
     width: 1158px;
+    padding: 0 15px;
+
 }
 .section {
     padding-top: 120px;
@@ -74,7 +76,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     display: flex;
-    margin-right: 76px
 }
 
 .logo-span {
@@ -97,6 +98,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display:inline-block;
 }
 
 .nav-link:hover,
@@ -138,7 +140,7 @@ img {
 }
 
 .hero-container {
-    max-height: 600px;
+    margin: 0 auto;
 }
 
 .title {
@@ -180,7 +182,6 @@ img {
 }
 
 .features-container {
-    height: 104px;
     margin: 0 auto;
 }
 
@@ -228,7 +229,7 @@ img {
 }
 
 .team-container {
-
+    margin: 0 auto;
 }
 
 .team-subtitle {
@@ -283,7 +284,7 @@ img {
 }
 
 .portfolio-container {
-
+    margin: 0 auto;
 }
 
 .portfolio-subtitle {
@@ -337,7 +338,6 @@ img {
 }
 
 .footer-container {
-    width: 264px;
 }
 
 .footer-logo {
@@ -361,4 +361,5 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }

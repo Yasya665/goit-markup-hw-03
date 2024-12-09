@@ -63,8 +63,6 @@ img {
 .nav {
     display: flex;
     align-items: center;
-    gap: 76px;
-
 }
 
 .logo {
@@ -76,6 +74,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     display: flex;
+    margin-right: 76px;
 }
 
 .logo-span {
